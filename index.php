@@ -30,7 +30,7 @@
                     </form>
                 </div>
             </div>
-            <div class="border col-10 d-flex flex-column h-50 position-absolute bottom-0 justify-content-end">
+            <div class="col-10 d-flex flex-column h-50 position-absolute bottom-0 justify-content-end">
                 <div class="row justify-content-center mt-5">
                     <div class="col-lg-6 d-none d-lg-flex d-md-flex justify-content-between">
                         <p class="text-secondary">Company</p>
