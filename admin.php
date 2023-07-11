@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-6 d-flex flex-row align-items-center mb-3 gap-2">
                     <div>show</div>
-                    <form style="width: 10%;">
+                    <form style="width: 12%;">
                         <select class="form-select" name="limit" id="limit" onchange="this.form.submit()">
                             <?php foreach ($limit_options as $option): ?>
                                 <option value="<?php echo $option; ?>" <?php if($limit == $option) echo "selected"; ?>>
