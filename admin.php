@@ -26,7 +26,7 @@
     $offset = ($page - 1) * $limit;
 
     // Mengambil data karyawan dengan batasan limit dan offset
-    $result = mysqli_query($mysqli, "SELECT * FROM users WHERE tipe = '1' ORDER BY nama ASC LIMIT $limit OFFSET $offset");
+    $result = mysqli_query($mysqli, "SELECT * FROM users WHERE tipe = '1' ORDER BY nama DESC LIMIT $limit OFFSET $offset");
 
     // Menghitung jumlah total data karyawan
     $total_rows = mysqli_num_rows(mysqli_query($mysqli, "SELECT * FROM users WHERE tipe = '1'"));

@@ -26,7 +26,7 @@
     $offset = ($page - 1) * $limit;
 
     // Mengambil data karyawan dengan batasan limit dan offset
-    $result = mysqli_query($mysqli, "SELECT * FROM transaksi WHERE status = '0' ORDER BY id ASC LIMIT $limit OFFSET $offset");
+    $result = mysqli_query($mysqli, "SELECT * FROM transaksi WHERE status = '0' ORDER BY id DESC LIMIT $limit OFFSET $offset");
 
     // Menghitung jumlah total data karyawan
     $total_rows = mysqli_num_rows(mysqli_query($mysqli, "SELECT * FROM transaksi WHERE status = '0'"));
